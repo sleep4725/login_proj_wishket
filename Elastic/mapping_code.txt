@@ -1,0 +1,12 @@
+PUT wisket
+{
+  "mappings": {
+    "properties": {
+      "title"           : {"type": "text"   },
+      "estimated_amount": {"type": "integer"},
+      "estimated_term"  : {"type": "integer"},
+      "proj_description": {"type": "text"   },
+      "collect_time"    : {"type": "date", "format": "yyyyMMdd HH:mm"}
+    }
+  }
+}
